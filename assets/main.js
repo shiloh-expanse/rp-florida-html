@@ -1,5 +1,4 @@
 
-// Cookie consent + basic tag loader placeholders
 (function(){
   var el = document.getElementById('cookie-consent');
   var btn = document.getElementById('cc-accept');
