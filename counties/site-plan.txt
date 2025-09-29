@@ -1,0 +1,6 @@
+UPDATES (v2)
+- Added /cities/index.html and /counties/index.html, linked in header and footer.
+- Replaced external image URLs with local placeholders in /assets/.
+- Expanded resource articles with longer content, key points, steps, and on-page FAQs.
+- Maintained plain, 9–10th grade reading level; short sentences and clear language.
+- Sitemap includes indexes; robots references sitemap.

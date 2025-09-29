@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://floridacashforhomes.co/sitemap.xml
