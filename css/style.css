@@ -7,7 +7,6 @@ body{font-family:Inter;}
 .bn-xx.sdt img {
 	width: 100%;
 }
-
 .ipt-x input {
 	width: 100%;
 	height: 45px;
@@ -81,35 +80,21 @@ color: #fff; text-decoration:none;}
 .rdr-cx {
 	background-image: url(../images/main-bg.jpg);
 }
-
-.top-btx a {
-
-	color:#fff;
-	
-}
-
-.top-bmx {
-	text-align: right;
-}
+.top-btx a {color:#fff;}
+.top-bmx {text-align: right;}
 .in-nav {
 	list-style: none;
 	text-align: center;
 	margin: 0;
-	padding: 0;
-}
-
-
+	padding: 0;}
 .in-nav li {
 	font-size: 14px;
 	font-family: inter;
 	font-weight: 300;
 	display: inline-block;
 	margin: 10px 6px;
-	letter-spacing: 0.5px;
-}
-.in-nav li a {
-	color: #161616;
-}
+	letter-spacing: 0.5px;}
+.in-nav li a {color: #161616;}
 .banner h2 {
 	font-family: inter;
 	font-size: 50px;
@@ -119,9 +104,7 @@ color: #fff; text-decoration:none;}
 	text-transform: uppercase;
 }
 
-.bn-xx h2 span {
-	font-size: 50px !important;
-	font-weight: 300;
+.bn-xx h2 span {font-size: 50px !important; font-weight: 300;
 }
 
 .top-bmx {
@@ -324,6 +307,7 @@ svg {
 	box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.5);
 	padding: 12px;
 	margin: 15px 0px;
+	position: relative;
 }
 
 .accordion-item button {
@@ -344,6 +328,8 @@ svg {
 }
 .accordion-item button img {
 	float: right;
+	position: absolute;
+	right: 6px;
 }
 .accordion-body {
 	padding: 2px 4px;
@@ -478,7 +464,42 @@ svg {
 .h-work-x{
 	background-image: url(../images/how-to-work-top-bg.jpg);
 }
+.faq-top {
+	background-image: url(../images/faq-top-img.jpg)!important;
+}
 
+.Resources {
+	background-image: url(../images/resources-and-guides-top-bg.jpg)!important;
+}
+.Resources h2 {
+	text-transform: capitalize;
+}
+
+.resouurcs-work p {
+	color: #000;
+}
+.option-box {
+	background: #f3f3f3;
+	padding: 26px 20px !important;
+	border-radius: 10px;
+	margin: 11px 0px;
+	box-shadow: 0px 0px 6px -2px rgba(0,0,0,0.5);
+}
+
+.option-box p::before {
+	background-image: url(../images/left-icon-cercle.png);
+	width: 22px !important;
+	height: 22px;
+	content: "";
+	/* max-width: 20px !important; */
+	display: inline-block;
+	background-repeat: no-repeat;
+	left: 26px;
+	position: absolute;
+}
+.option-box p {
+	padding-left: 16px;
+}
 .info-box.p-4.h-100 {
 	background: #f3f3f3;
 	border-radius: 30px;
@@ -520,6 +541,20 @@ svg {
 	box-shadow:none;
 	border: none;
 }
+.accordion-item.faq{margin: 23px 0px!important;}
+
+.bn-xx.fq-work {
+	padding: 20px;
+}
+.bn-xx.fq-work h2 {
+	font-size: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.rcs{
+	font-size: 18px;
+}
 
 @media ( min-width:320px ) and ( max-width:767px ){ 
 
@@ -548,7 +583,12 @@ svg {
 .title-main {
 	font-size: 31px;
 }
-
+.abt-sec{
+	line-height: 29px!important;
+}
+.abt-sec p {
+	line-height: 30px;
+}
 .bt-bx-mv p {
 	margin: 20px 0px;
 }
@@ -593,7 +633,7 @@ svg {
 }
 
 .logo {
-	text-align: center;
+	text-align: left;
 }
 .top-bmx {
 	text-align: center;
@@ -606,24 +646,18 @@ svg {
 	display: block;
 	text-align: left;
 }
-
-
-
 .in-nav {
 	width: 100%;
 	position: absolute;
 	z-index: 99;
-	background: #6382f7;
+	background: #f3f3f3;
 	padding: 0;
-	padding: 13px 0px;
+	padding: 6px 0px;
 	border-radius: 7px;
+	left: 0px;
 }
-
-
 .in-nav li {
-	padding: 0px 17px;
-}
-
+	padding: 0px 17px;}
 .in-nav li {
 	margin: 0px 0px;
 	border-bottom: 2px solid #f2f2f269;
@@ -634,22 +668,45 @@ svg {
 	color: #fff;
 }
 
-.top-bmx {
-	width: 70%!important;
-}
-.navigation{
-	width: 30%!important;
-}
-
-.tick ::before {
-	left: 5px;
-
-}
+.tick ::before { left: 5px;}
 .h-work h2 {
 	font-size: 42px !important;
 }
 .h-work h2 span  {
 	font-size: 42px !important;
 }
+.accordion-item h2 {
+	font-size: 17px !important;
+}
+
+.accordion-item button img {
+	top: 22px;
+}
+.navigation{
+	position: absolute!important;
+	top: 28px;
+	right: 0px;}
+	
+	.navbar-toggler-icon {
+	position: absolute;
+	right: 22px;
+}
+	.in-nav {
+	position: absolute;
+	top: 47px;
+}
+	
+	
+}
+
+
+@media ( min-width:576px ) and ( max-width:768px ){ 
+
+
+.navbar-light .navbar-toggler {
+	border-color: #fff !important;
+}
+
+
 
 }
