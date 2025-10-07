@@ -556,6 +556,89 @@ svg {
 	font-size: 18px;
 }
 
+.cty-x {
+	font-size: 18px !important;
+}
+
+.city-x {
+	background-image: url(../images/city-top-bg.jpg);
+}
+
+.city-nx h2 {
+	font-size: 42px!important;
+}
+.cities-section {
+  background-color: #fff;
+}
+
+.city-card .card {
+	border: 8px solid #eae3ee;
+	transition: none;
+	border-radius: 0;
+	padding: 10px;
+}
+.card.border-light {
+	border-color: #eae3ee !important;
+}
+
+.city-card .card:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+.btn-outline-dark:hover {
+	color: #fff;
+	background-color: #fc5f02!important;
+	border-color: #fc5f02!important;
+}
+
+.nx-fd {
+	padding: 5px 22px;
+}
+.city-card {
+	margin: 10px 0px;
+}
+
+.city-x .bn-xx {
+	padding: 50px 0px!important;
+}
+.card-title {
+  margin-top: 10px;
+  color: #000; font-size: 20px;
+}
+
+.btn-outline-dark {
+  padding: 8px 20px;
+  border-radius: 30px;
+}
+
+.city-inx {
+	background-image: url(../images/city-bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.city-inx {
+	color: #fff;
+}
+
+.city-inx h2 {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.city-inx-1{
+	padding: 40px 0px;
+}
+
+.city-inx-1 p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding: 10px 100px;
+}
+.city-inx-1 span{font-weight:400;}
+.ct-dx{font-weight:400; font-size:16px;}
+
+
+
 @media ( min-width:320px ) and ( max-width:767px ){ 
 
 .form-ct img {
