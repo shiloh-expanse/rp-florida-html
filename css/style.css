@@ -591,7 +591,8 @@ svg {
 }
 
 .nx-fd {
-	padding: 5px 22px;
+	padding: 5px 22px !important;
+	padding-bottom: 7px !important;
 }
 .city-card {
 	margin: 10px 0px;
@@ -637,8 +638,21 @@ svg {
 .city-inx-1 span{font-weight:400;}
 .ct-dx{font-weight:400; font-size:16px;}
 
+.main-footer {
+	padding-bottom: 1px;
+}
+.Services {
+	padding-bottom: 13px;
+}
 
+.counties.option-box {
+	background: none;
+	box-shadow: none;
+}
 
+.counties.option-box p{
+	padding-left: 12px !important;
+}
 @media ( min-width:320px ) and ( max-width:767px ){ 
 
 .form-ct img {
