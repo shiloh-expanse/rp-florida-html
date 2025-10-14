@@ -20,6 +20,9 @@ header {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+.counties.option-box p a {
+	color: #000;
+}
 .logo {
 	padding: 0 !important;
 }
@@ -506,7 +509,7 @@ svg {
 	border: 3px solid #e3e3e3;
 }
 .bn-xx h2 span {
-	font-size: 42px !important;
+	font-size: 35px !important;
 	font-weight: 300;
 }
 .h-work h2 {
@@ -648,6 +651,8 @@ svg {
 .counties.option-box {
 	background: none;
 	box-shadow: none;
+	padding: 0 !important;
+	padding-left: 26px !important;
 }
 
 .counties.option-box p{
@@ -805,5 +810,21 @@ svg {
 }
 
 
+
+}
+
+
+@media ( min-width:992px ) and ( max-width:1200px ){
+
+.in-nav li {
+	font-size: 13px;
+	margin: 8px 1px;
+}
+
+.top-btx {
+	font-size: 13px;
+	padding: 6px 7px;
+	margin: 11px 0px;
+}
 
 }
